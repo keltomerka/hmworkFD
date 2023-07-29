@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* height: 1080px; */
+    margin: 0;
+    background: #FFF;
+}
+header{
+    height: 330px;
+    padding-top: 80px;
+    
+}
+.h{
+    display: inline-block
+}
+.hlogo{
+    padding-left: 170px;
+}
+.hline{
+    padding-left: 31px;
+    vertical-align: 17.5px;
+
+}
+.hsoclogo{
+    padding-left: 31px;
+    vertical-align: 17.5px; 
+}
+.hhead{
+    display: inline-block;
+}
+/* .habout  */
+.htext{
+    display: inline;
+    /* vertical-align: bottom; */
+    color: #363636;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;    
+   float: right;
+   margin-top: 22.5px;
+   margin-bottom: 0;
+}
+.txtall{
+    margin-right: 100px;
+}
+.txtcontact{
+    margin-right: 139px;
+}
+.pragua{
+    margin: 0;
+}
+.guide{
+    color: #1E1E1E;
+    font-size: 46px;
+    font-weight: 700;
+    width: 780px;
+    text-align: center;
+    margin: 0;
+    margin-left: 33%;
+}
+.prginfo{
+    display: flex;
+    justify-content: center;
+    color: #9B9B9B;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 32px;  
+      
+}
+.prginfo p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.prginfo span{
+    color: #4A4A4A;
+}
