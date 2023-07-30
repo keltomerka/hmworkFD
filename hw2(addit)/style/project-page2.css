@@ -12,26 +12,26 @@ header{
     padding-top: 80px;
     
 }
-.h{
+.hp2{
     display: inline-block
 }
-.hlogo{
+.hlogop2{
     padding-left: 170px;
 }
-.hline{
+.hlinep2{
     padding-left: 31px;
     vertical-align: 17.5px;
 
 }
-.hsoclogo{
+.hsoclogop2{
     padding-left: 31px;
     vertical-align: 17.5px; 
 }
-.hhead{
+.hheadp2{
     display: inline-block;
 }
 /* .habout  */
-.htext{
+.htextp2{
     display: inline;
     /* vertical-align: bottom; */
     color: #363636;
@@ -43,13 +43,13 @@ header{
    margin-top: 22.5px;
    margin-bottom: 0;
 }
-.txtall{
+.txtallp2{
     margin-right: 100px;
 }
-.txtcontact{
+.txtcontactp2{
     margin-right: 139px;
 }
-.pragua{
+/* .pragua{
     margin: 0;
 }
 .guide{
@@ -83,63 +83,12 @@ header{
     padding-top: 60px;
 }
 .txtdiv{
-    margin: 0 33%;
+    margin: 77px 33%;
 }
-.txtprg{
+.txtprg-page{
     color: #4A4A4A;
     width: 780px;
     font-size: 16px;
     font-weight: 400;
-    padding-top: 60px;
-}
-.buttprg{
-    margin: 0 43%;
-    border-radius: 50px;
-    border: 1px solid #E9E9E9;
-    background: #FFF;
-    width: 300px;
-    height: 60px;
-    margin-top: 80px;
-}
-.buttprg span{
-    color: #4A4A4A;
-    font-size: 14px;
-    font-weight: 500;
-    text-transform: uppercase;
-}
-.countries{
-    margin-top: 100px;
-}
-.txtend{
-    margin-top: 100px;
-    color: #1E1E1E;
-    font-size: 34px;
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-}
-.previous{
-    margin-right: 1048px;
-}
-footer{
-    height: 400px;
-    background: #FAFAFA;
-    margin-top: 101px;
-}
-.footerlogo{
-    text-align: center;
-    padding-top: 131px;
-}
-.footertxt{
-    text-align: center;
-    color: #9B9B9B;
-    font-size: 16px;
-    font-weight: 400;
-    padding-top: 59px;
-}
-.footertxt span{
-    color: #000;
-}
-a{
-    text-decoration: none;
-}
+    margin: 0;
+} */
