@@ -8,20 +8,28 @@ body{
 header{
     background: #FFF;
     font-size: 0;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    
 }
 .header-img{
-    display: inline-block;
-    padding: 65px 250px;
-    display: flex;
-    align-items: center; 
-}
+    /* display: inline-block; */
+    /* padding: 65px 250px; */
+    /* display: inline-block; */
+    height: 161px;
+    padding-top: 65px; 
+    margin: 0 auto;
 
-.hsocial{
-   width: 25px;
-   height: 25px;
-   display: flex;
-   margin: 0px 1667px;
+}
+.icon{
+    display: inline-block;
+    padding-left: 250px;
+}
+ .hsocial{
+   display: inline-block; 
+   float: right;
+   margin-right: 250px;
+   
+   
 }
 .facebook{
     margin: 0 21px;
@@ -45,8 +53,8 @@ header{
 }
 .formbutt{
     padding-top: 40px;
-    display: inline-block;
-    padding-left: 742px;
+    text-align: center;
+    
     
 }
 .eadress{
@@ -91,8 +99,11 @@ header{
     font-family: Roboto;
     padding-top: 32px;
     width: 819px;
-    margin-left: 724px;
     text-align: center;
+   margin: 0 auto;
+}
+.textinfo2prt2 p {
+    width: 819px;
 }
 .img8{
     padding-top: 56px;
@@ -117,7 +128,7 @@ header{
     font-family: Roboto;
     font-size: 23px;
     width: 819px;
-    margin-left: 724px;
+    margin: 0 auto;
     padding-top: 32px;
 }
 .imgphone{
