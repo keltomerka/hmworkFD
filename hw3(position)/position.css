@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    margin: 0;
+}
+.main{
+    width: 800px;
+    height: 750px;
+    margin: 200px auto;
+    border: 2px solid red;
+    position: relative;
+    margin-bottom: 0;
+}
+.main div{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+.firstlogo{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.secondlogo{
+    background-color: #2137FC;
+    position: absolute;
+    top: 230px;
+    left: 260px;
+    z-index: 1;
+
+}
+.thirtlogo{
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.dia{
+    text-align: center;
+    padding-top: 80px;
+}
+.dia img{
+    width:200px;
+    
+}
+.flag{
+    background-color: yellow;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+}
+.flag div{
+    background-color: blue;
+    width: 100px;
+    height: 25px;
+}
