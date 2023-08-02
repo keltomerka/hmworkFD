@@ -6,37 +6,41 @@ body{
     margin: 0;
 }
 .main{
-    width: 800px;
-    height: 750px;
+    width: 812px;
+    height: 792px;
     margin: 200px auto;
-    border: 2px solid red;
     position: relative;
     margin-bottom: 0;
-}
-.main div{
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
 }
 .firstlogo{
     background-color: black;
     position: absolute;
     top: 0;
     left: 0;
+    width: 300px;
+    height: 300px;
 }
 .secondlogo{
-    background-color: #2137FC;
+    background-color: #FFCE22;
     position: absolute;
     top: 230px;
     left: 260px;
     z-index: 1;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
 
 }
 .thirtlogo{
-    background-color: yellow;
+    background-color: white;
     position: absolute;
     bottom: 0;
     right: 0;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #2137FC;
+    border-left: none;
+    border-right: none;
 }
 .dia{
     text-align: center;
@@ -47,17 +51,45 @@ body{
     
 }
 .flag{
-    background-color: yellow;
-    border-radius: 6px;
+    width: 50px;
+    height: 30px;
+    background-color: #FFCE22;
     overflow: hidden;
-    width: 20px;
-    height: 10px;
-    position: absolute;
-    bottom: 0;
-    left: 100px;
+    border-radius: 6px;
+    margin: 15px auto; 
+
 }
-.flag div{
-    background-color: blue;
-    width: 100px;
-    height: 25px;
+ .flag2{
+    background-color: #2137FC;
+    width: 50px;
+    height: 15px;
+    margin: 0 auto;
+}
+.secondlogo div{
+    height: 150px;
+    width: 300px;
+    background-color: #2137FC;
+}
+.secondlogo img{
+    padding-top: 67px;
+    width:300px;
+}
+.circle{
+    width: 280px;
+    height: 280px;
+    background-color: #FFCE22;
+    overflow: hidden;
+    border-radius: 280px;
+    margin: 10px auto;
+}
+
+.blue{
+    width: 280px; 
+   
+}
+.glyph{
+    width: 237px;
+    margin-left: 22px;
+    margin-top: -19px;
+
 }
