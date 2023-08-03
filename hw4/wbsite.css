@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.start{
+    min-height: 1200px;
+    background-image: url(img/indonesia_cover.png);
+    /* background: linear-gradient(347deg, rgba(0, 0, 0, 0.00) 0%, #000 100%); */
+    background-repeat: no-repeat;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 58px;
+}
+.name{
+    color: var(--wei, #FFF);
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+   
+    padding-left: 85px;
+}
+.info{
+    display: flex;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    align-items: center;
+}
+.info p{
+    padding-right: 50px;
+    
+}
+.srch{
+    display: flex;
+    align-items: center;
+}
+.srch i{
+    color: #FFF;
+    padding-right: 14px;
+}
+.srch input{
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+   
+}
+input::placeholder{
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
