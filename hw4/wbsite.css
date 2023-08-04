@@ -6,10 +6,13 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 .start{
-    min-height: 1200px;
-    background-image: url(img/indonesia_cover.png);
+    min-height: 2000px;
+    background-image: linear-gradient(347deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), linear-gradient(360deg, #000 0%, rgba(0, 0, 0, 0.00) 10%), url(img/background\ \(2\).png);
     /* background: linear-gradient(347deg, rgba(0, 0, 0, 0.00) 0%, #000 100%); */
+    background-size: cover;
+    
     background-repeat: no-repeat;
+
 }
 header{
     display: flex;
@@ -145,3 +148,95 @@ h1 span{
     color: #FFF;
     
 }
+.holiday{
+    background-image: linear-gradient( 180deg, #000 0%, rgba(0, 0, 0, 0.00) 100%);
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+    height: 800px;
+}
+.imghol{
+    margin-top: -173px;
+}
+.about{
+    margin-top: -100px;
+}
+h2{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 700;
+    width: 555px;
+}
+.text{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    width: 632px;
+}
+.more{
+    color: var(--accent, #FBD784);
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+}
+.more i{
+    padding-top: 22px;
+    padding-left: 9px;
+}
+.bromo{
+    background: #000;
+    height: 1000px;
+    background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.00) 100%), url(img/bromo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75% ;
+}
+.brmh3{
+    margin: 0 auto;
+    padding-bottom: 24px;
+}
+.brmh3::after{
+    content: "";
+    display: inline-block;
+    width: 72px;
+    height: 2px;
+    background: #FFC178;
+    margin-bottom: 6px;
+    margin-left: 32px;
+}
+.brmh2{
+    margin: 0 auto;
+    padding-bottom: 27px;
+    width: 705px;
+}
+.brmtxt{
+    margin: 0 auto;
+    width: 934px;
+    padding-bottom: 39px;
+}
+.mbrm{
+    justify-content: center;
+}
+.txtbromo{
+    text-align: center;
+    padding-top: 560px;
+}
+.bromo>i{
+    color: white;
+}
+i>i{
+    color: #FFF;
+    float: right;
+}
+.culture{
+    padding-top: 250px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+    min-height: 1000px;
+}
+.abtcul{
+    margin-top: 115px;
+}
+
+
