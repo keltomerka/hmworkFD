@@ -191,6 +191,7 @@ h2{
     background-position: center;
     background-size: 75% ;
     position: relative;
+    margin-bottom: 0;
 }
 .brmh3{
     padding-bottom: 24px;
@@ -219,10 +220,9 @@ h2{
 }
 .txtbromo{
     text-align: center;
-    /* padding-top: 560px; */
-    position: absolute;
-    bottom: 40px; ;
-    left: 30%;
+    margin: 0 auto;
+    padding-top: 22%;
+
 }
 .bromo>i{
     position: absolute;
