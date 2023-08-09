@@ -74,7 +74,7 @@ input::placeholder{
     font-family: Nunito Sans;
     font-size: 22px;
     font-weight: 400;
-    padding-left: 70px;
+    padding-left: 50px;
 }
 @media screen and (max-width:1000px) {
     .main{
@@ -85,7 +85,7 @@ input::placeholder{
        flex-direction: column;
     }
 }
-@media screen and (max-width:430px) {
+@media screen and (max-width:500px) {
     header{
         flex-direction: column;
         align-items: center;
@@ -97,14 +97,18 @@ input::placeholder{
     .logo p{
         margin: 0;
     }
+    input::placeholder{
+        padding-left: 40px;
+        
+    }
 }
 section{
     display: flex;
     justify-content: space-between;
-    padding-top: 160px;
+    padding-top: 115px;
 }
 img{
-    width: 411px;
+    width: 420spx;
     height: auto;
 }
 .info{
@@ -113,7 +117,7 @@ img{
 }
 .text{
     border-right: 1px solid #333;
-    padding-right: 200px;
+    padding-right: 100px;
 }
 .work{
     color: #F2994A;
@@ -150,7 +154,7 @@ img{
 .social{
     display: flex;
     justify-content: space-between;
-    padding-top: 56px;
+    padding-top: 20px;
 }
 .multiplayer{
     display: flex;
@@ -175,8 +179,93 @@ img{
 .socmedia>a:hover{
     color: #F2994A;
 }
+@media screen and (max-width:1300px){
+    section{
+        flex-direction: column;
+        padding-top: 50px;
+        align-items: center;
+    }
+    .info{
+        padding-top: 50px;
+    }
+    .text{
+        padding-right: 0;
+    }
+    input::placeholder{
+        padding-left: 40px;
+    }
+}
+@media screen and (max-width:500px){
+    img{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .info{
+        margin: 0 auto;
+    }
+    .work{
+        font-size: 20px;
+        margin: 0 auto;
+    }
+    .design{
+        font-size: 30px;
+        width: auto;
+    }
+    .txt{
+        font-size: 16px;
+        width: auto;
+    }
+    .txt::before{
+        margin-top: 30px;
+    }
+    .main{
+        margin: 0;
+    }
+}
 footer{
     background-color: #3F9AB7;
     height: 118px;
-    margin: 50px 0;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 35px;
+}
+.elips{
+    position: relative;
+    min-width: 200px;
+    bottom: 30px;
+}
+.elips77{
+    position: absolute;
+    padding-left: 78px;
+    bottom: 0px;
+    top: 0;
+}
+.elips76{
+    position: absolute;
+    padding-left: 116px;
+}
+.elips75{
+    position: absolute;
+    padding-left: 150px;
+}
+.clients p{
+    color: var(--white, #FFF);
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 400;
+}
+.clients span{
+    color: var(--white, #FFF);
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 700;
+}
+@media screen and (max-width:500px){
+    .elips{
+        display: none;
+    }
+    
 }
