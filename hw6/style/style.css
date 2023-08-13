@@ -81,17 +81,21 @@ header{
     font-size: 40px;
     font-weight: 700;
     margin: 0;
-    padding-bottom: 70px
+    padding-bottom: 90px
 }
 .mainname span{
     color: #F90;
 }
 .story-content{
     display: grid;
-    grid-template-columns: 1fr 0.8fr 1fr;
+    grid-template-columns: 508px 508px 508px;
+    justify-content: center;
 }
-.img1-2{
-    margin: 0 auto;
+.img1orstory{
+    justify-self: end;
+}
+.distinkt{
+    justify-self: center;
 }
 .nameprg{
     color: #F90;
@@ -108,5 +112,145 @@ header{
 }
 .another{
     text-align: center;
-    width: 254px;
+}
+.img3orstory{
+    margin-top: -211px;
+    justify-self: center;
+}
+.img4orstory{
+    justify-self: end;
+    margin-top: -317px;
+}
+.img5orstory{
+    grid-column-start: 3;
+    margin-top: -317px;
+}
+.more{
+    padding-top: 35px;
+    justify-self: end;
+    grid-column: 3;
+    padding-bottom: 121px;
+}
+.more p{
+    margin: 0;
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+}
+.more::after{
+    content:'';
+    display: block;
+    width: 113.009px;
+    height: 5px;
+    background: #FFE600;
+}
+a{
+    text-decoration: none;
+}
+.collection{
+    height: 904px;
+    background: #FFF;
+}
+/* .collection::after{
+    content:'';
+    display: block;
+    width: auto;
+    height: 5px;
+    margin-top: 25px;
+    background: #F90;
+} */
+.ourcollection{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -41px;
+}
+.town{
+    width: 360px;
+    height: 500px;
+    background-image: linear-gradient(347deg, rgba(0, 0, 0, 0.40) 0%, #000 2000%), url(/hw6/img/hotel1\ 1.png);
+    display: grid;
+}
+.city{
+    font-weight: 700;
+    color: white;
+    font-size: 24px;
+}
+.city::after{
+    content:'';
+    display: block;
+    width: 94px;
+    height: 5px;
+    background: #FFE600;
+}
+.city+p{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+.town>div{
+    align-self: end;
+    padding-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 36px;
+}
+.dubai{
+    background-image: linear-gradient(347deg, rgba(0, 0, 0, 0.40) 0%, #000 2000%), url(/hw6/img/dubai\ \(2\).png);
+}
+.paries{
+    background-image: linear-gradient(347deg, rgba(0, 0, 0, 0.40) 0%, #000 2000%), url(/hw6/img/parie.png);
+}
+.newyork{
+    background-image: linear-gradient(347deg, rgba(0, 0, 0, 0.40) 0%, #000 2000%), url(/hw6/img/Nw.png);
+}
+.view{
+    float: right;
+    margin-right: 100px;
+    padding-top: 55px;
+}
+.line{
+    width: auto;
+    height: 4px;
+    background: #F90;
+}
+.line2{
+    width: auto;
+    height: 4px;
+    background: #F90;
+    margin-top: -41px;
+}
+.hour{
+    background-image: url(/hw6/img/bckhour.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 929.111px;
+}
+.infohour{
+    display: flex;
+    justify-content: center;
+    column-gap: 324px;
+    margin-top: 50px;
+}
+.areasof{
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+}
+.areasof span{
+    color: #F90;
+}
+.areasof+p{
+    color: #000;
+    font-weight: 400;
+    font-size: 18px;
+    width: 566px;
+}
+.whatdo{
+    float: right;
+}
+.purpose{
+    height: 1180px;
+}
+.bigphotos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
