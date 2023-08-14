@@ -73,6 +73,7 @@ header{
 }
 .ourstory{
     background-color: #F6FDEE;
+    min-height: 1350px;
 }
 .mainname{
     padding-top: 120px;
@@ -148,7 +149,7 @@ a{
     text-decoration: none;
 }
 .collection{
-    height: 904px;
+    min-height: 904px;
     background: #FFF;
 }
 /* .collection::after{
@@ -222,7 +223,7 @@ a{
     background-image: url(/hw6/img/bckhour.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 929.111px;
+    min-height: 929.111px;
 }
 .infohour{
     display: flex;
@@ -248,7 +249,7 @@ a{
     float: right;
 }
 .purpose{
-    height: 1180px;
+    min-height: 1180px;
 }
 .bigphotos{
     display: grid;
@@ -309,7 +310,7 @@ a{
 }
 .awards{
     background: #F6FDEE;
-    height: 1039px;
+    min-height: 1039px;
 }
 .awardfoto{
     display: grid;
@@ -347,7 +348,7 @@ a{
     background-image: url(/hw6/img/endbackgrd.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1300px;
+    min-height: 1300px;
 }
 .contacts{
     display: flex;
@@ -383,7 +384,7 @@ a{
 .nwofice{
     margin-top: -30px;
 }
-button{
+a>button{
     border-radius: 5px;
     background: #F90;
     color: #000;
@@ -418,4 +419,168 @@ button{
     margin-left: 162px;
     margin-top: 300px;
     
+}
+@media screen and (max-width:1000px) {
+    body{
+        margin: 0;
+    }
+    .more::after{
+        width: 130px;
+    }
+    .ourstory{
+        height: 1700px;
+    }
+    .mainname{
+        padding-top: 50px;
+    }
+    img{
+        width: 300px;
+        height: auto;
+        padding: auto;
+    }
+    .more{
+        padding: 0;
+        margin-top: 300px;
+        float: none;
+    }
+    .another{
+    text-align: left;
+    }
+   
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
+        font-size: 30px;
+    }
+    .navigation{
+        flex-direction: column;
+    }
+    .wel-text{
+        flex-direction: column;
+        padding-top: 60px;
+        
+    }
+    .story-content{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .ourcollection{
+        flex-direction: column;
+    }
+    .town{
+        display: flex;
+        flex-direction: column;
+    }
+    .infohou{
+        flex-direction: column;
+    }
+    .bigphotos{
+        flex-direction: column;
+        display: flex;
+    }
+    .awardfoto{
+        flex-direction: column;
+        display: flex;
+    }
+    .contacts{
+        flex-direction: column;
+    }
+    .maininfo{
+        flex-direction: column;
+        display: flex;
+
+    }
+    .ourcollection{
+        height: 1800px;
+    }
+    .hour{
+        margin-top: 80px;
+    }
+    .infohour{
+        flex-direction: column;
+    }
+    .whatdo{
+        margin-top: 0;
+    }
+    .purpose{
+       margin-bottom: 120px;
+    }
+    .awards{
+        height: 1800px;
+    }
+    .awardfoto>img{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .awardfoto >img:nth-child(4){
+        margin-top: 0;
+    }
+    .polline{
+        margin-left: 0;
+    } 
+    .policy{
+        margin-left: 0;
+        margin-right: 0;
+        flex-direction: column;
+    }
+     .line{
+        display: none;
+
+    }
+    a>button{
+        float: none;
+    }
+    .line2{
+        display: none;
+    }
+    .view{
+        margin: 0;
+    }
+    .mail>p::after{
+        content:'';
+        display: block;
+        width: 500px;
+        height: 1px;
+        background: black;
+    }
+    .vintage{
+    font-size: 40px;
+    }
+    .isadore{
+        font-size: 30px;
+        width: 400px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:650px){
+    .vintage{
+        font-size: 30px;
+        text-align: center;
+        }
+        .isadore{
+            font-size: 20px;
+            width: 200px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+        .mainname{
+            padding-top: 50px;
+            padding-left: 30px;
+        }
+        .areasof+p{
+            width: 300px;
+        }
+        .mail>p::after{
+            content:'';
+            display: block;
+            width: 200px;
+            height: 1px;
+            background: black;
+        }
+        
 }
