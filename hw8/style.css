@@ -9,10 +9,10 @@ body{
 }
 header{
     background-color: #668E68;
-    height: 80px;
+    min-height: 80px;
 }
 
-.head-navi p:not(:last-child){
+.head-navi a:not(:last-child){
     padding-right: 50px ;
     font-family: 'Noto Serif HK', serif;
     font-size: 18px;
@@ -26,7 +26,7 @@ header{
     background-image: url(img/background1\ \(2\).png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 512px;
+    min-height: 512px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,7 +64,7 @@ header{
     
 }
 .menu{
-    height: 710px;
+    min-height: 710px;
 }
 .namemenu{
     width: 120px;
@@ -106,4 +106,72 @@ a{
     text-decoration: none;
     color: #FFF;
     padding-top: 7px;
+}
+.about{
+    background-image: url(img/background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
+.txtabout p{
+    width: 367px;
+    margin: 0 auto;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.70);
+    font-weight: 500;
+    font-family: 'Noto Serif HK', serif;
+    padding-bottom: 30px;
+}
+.nmabout{
+    width: 200px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.70);
+    padding-top: 70px;
+}
+.news{
+    min-height: 406px;
+    background: rgba(129, 97, 59, 0.20);
+}
+.newstxt{
+    min-height: 102px;
+}
+.numbernew{
+    padding-top: 20px;
+    font-size: 16px;
+}
+.numbernew span{
+    padding-right: 30px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: 'Noto Serif Georgian', serif;
+}
+.secondnew{
+    padding-top: 0;
+}
+footer{
+    background-color: #000;
+    min-height: 180px;
+    font-family: 'Noto Serif Georgian', serif;
+}
+.contacts{
+    padding-top: 20px;
+}
+.contacts p{
+    width: 185px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.reserved{
+    padding-top: 20px;
+}
+@media screen and (max-width:500px) {
+    .head-navi a>p{
+        font-size: 0px;
+    }
+    .mainname{
+        font-size: 50px;
+    }
+    .btn1{
+        margin-bottom: 50px;
+    }
 }
