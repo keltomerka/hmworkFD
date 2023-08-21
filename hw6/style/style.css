@@ -6,7 +6,7 @@ body{
     font-family: 'Philosopher', sans-serif;
 }
 .welcome{
-    background-image: linear-gradient(347deg, rgba(0, 0, 0, 0.60) 0%, #000 2000%), url(/hw6/img/background1.png);
+    background-image: linear-gradient(347deg, rgba(0, 0, 0, 0.60) 0%, #000 2000%), url(../img/background1.png);
     min-height: 1080px
 }
 header{
@@ -168,7 +168,7 @@ a{
 .town{
     width: 360px;
     height: 500px;
-    background-image: linear-gradient(347deg, rgba(0, 0, 0, 0.40) 0%, #000 2000%), url(/hw6/img/hotel1\ 1.png);
+    background-image: linear-gradient(347deg, rgba(0, 0, 0, 0.40) 0%, #000 2000%), url(../img/hotel1.png);
     display: grid;
 }
 .city{
@@ -195,13 +195,13 @@ a{
     padding-right: 36px;
 }
 .dubai{
-    background-image: linear-gradient(347deg, rgba(0, 0, 0, 0.40) 0%, #000 2000%), url(/hw6/img/dubai\ \(2\).png);
+    background-image: linear-gradient(347deg, rgba(0, 0, 0, 0.40) 0%, #000 2000%), url(../img/dubai\(2\).png);
 }
 .paries{
-    background-image: linear-gradient(347deg, rgba(0, 0, 0, 0.40) 0%, #000 2000%), url(/hw6/img/parie.png);
+    background-image: linear-gradient(347deg, rgba(0, 0, 0, 0.40) 0%, #000 2000%), url(../img/parie.png);
 }
 .newyork{
-    background-image: linear-gradient(347deg, rgba(0, 0, 0, 0.40) 0%, #000 2000%), url(/hw6/img/Nw.png);
+    background-image: linear-gradient(347deg, rgba(0, 0, 0, 0.40) 0%, #000 2000%), url(../img/Nw.png);
 }
 .view{
     float: right;
@@ -220,7 +220,7 @@ a{
     margin-top: -41px;
 }
 .hour{
-    background-image: url(/hw6/img/bckhour.png);
+    background-image: url(../img/bckhour.png);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 929.111px;
@@ -345,7 +345,7 @@ a{
     margin-left: 27px;
 }
 .info{
-    background-image: url(/hw6/img/endbackgrd.png);
+    background-image: url(../img/endbackgrd.png);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 1300px;
